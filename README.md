@@ -1,11 +1,13 @@
 # $console
 
+Stops further execution of the action call chain and displays all the current variable values.
+
+![console](https://raw.githubusercontent.com/gliechtenstein/images/master/console.png)
+
 ## Usage
 
 ### 1. Basic
-Stops further execution of the action call chain and displays all the current variable values.
 
-#### Example
 ```json
 {
   "type": "$network.request",
@@ -19,11 +21,8 @@ Stops further execution of the action call chain and displays all the current va
 ### 2. Evaluation
 Does all of the above, but also evaluate the expression passed in, and display it under "evaluated"
 
-#### Options:
-  - `eval`: A string to evaluate using the javascript engine.
+Just pass in an `eval` attribute whose value is a template expression to be evaluated
 
-
-#### Example
 ```json
 {
   "type": "$network.request",
