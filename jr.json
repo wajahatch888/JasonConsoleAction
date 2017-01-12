@@ -3,5 +3,6 @@
   "name": "console",
   "classname": "JasonConsoleAction",
   "platform": "ios",
-  "description": "$console.debug lets you inspect current data state in any action call chain"
+  "description": "$console.debug lets you inspect current data state in any action call chain",
+  "dependencies":["pod 'JGProgressHUD'"]
 }
