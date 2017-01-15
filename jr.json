@@ -2,7 +2,7 @@
   "version": "0.1.3",
   "name": "console",
   "classname": "JasonConsoleAction",
-  "platform": "ios",
+  "platform": "android",
   "description": "$console.debug lets you inspect current data state in any action call chain",
   "dependencies":["pod 'JGProgressHUD'"]
 }
